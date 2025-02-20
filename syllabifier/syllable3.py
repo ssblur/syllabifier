@@ -2,7 +2,7 @@ import string
 import sys
 from typing import Optional, List
 
-from syllabifier import cmuparser3
+from . import cmuparser3
 from .phoneme_types import *
 from .syllable_types3 import (
     Cluster,
